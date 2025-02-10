@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/023/339/353/small/minimalistic-fluid-blurred-gradient-background-trendy-neon-backdrop-for-poster-brochure-banner-landing-page-and-night-club-vector.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: black;
+    bottom: 5%;
+}
+
+.text h1{
+    font-weight: 500;
+    font-size: 4vw;
+}
+
+.text .image{
+    background-image: url(https://img.freepik.com/premium-photo/wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass_181624-22807.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 400px;
+}
+
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rtext p{
+    font-size: 20px;
+}
+
+.bottom{
+    display: flex;
+    width:100%;
+    min-height: 40vh;
+}
+
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGlnaHQlMjB0cmVlfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center; 
+}
+
+.b1 h1{
+    text-align: center;
+    font-weight: 500;
+    font-size:2vw;
+    padding:10px;
+    color:khaki;
+}
+
+.b1 p{
+    font-weight:200;
+    font-size:1vw;
+    padding:10px;
+    color: white;
+}
+
+.b2{
+    width:30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://img.freepik.com/free-photo/top-view-fresh-greens-white-background_140725-138840.jpg?t=st=1739111947~exp=1739115547~hmac=a9454a960d2f062e93bf9a1a80e4810383fa5d31668a7141a528adad67b1c80a&w=740);
+    background-size: cover;
+    background-position: center;
+}
+
+.b2 .up h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.b2 .up p{
+    font-size:1.2vw;
+    color:black;
+    padding: 10px;
+}
+
+.b2 .down{
+    width:100%;
+    min-height: 20vh;
+    background-image: url(https://images.pexels.com/photos/1379627/pexels-photo-1379627.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+}
+
+.b2 .down h1{
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+
+.b2 .down p{
+    color:whitesmoke;
+    padding: 10px;
+}
+
+.b3{
+    width:40%;
+    min-height: inherit;
+    background-image: url(https://img.freepik.com/free-photo/agave-pot_155003-2435.jpg?ga=GA1.1.494123438.1712415523&semt=ais_hybrid);
+    background-size: cover;
+    background-position: center;
+}
+
+.b3 .overlay p{
+    color:black;
+    font-size:1.5vw;
+    padding:10px;
+}
+
